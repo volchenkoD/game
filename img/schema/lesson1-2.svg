@@ -1,0 +1,33 @@
+<svg width="225" height="128" viewBox="0 0 225 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="4.49988" y1="18.976" x2="5.49988" y2="122.976" stroke="#605EE3" stroke-width="5"/>
+<circle cx="5" cy="19" r="5" fill="#605EE3"/>
+<circle cx="5" cy="123" r="5" fill="#605EE3"/>
+<line x1="94.0607" y1="6.93934" x2="120.061" y2="32.9393" stroke="#DC1616" stroke-width="3"/>
+<line x1="119.83" y1="8.46458" x2="95.8303" y2="32.4646" stroke="#DC1616" stroke-width="3"/>
+<path d="M125.5 20C125.5 30.2173 117.217 38.5 107 38.5C96.7827 38.5 88.5 30.2173 88.5 20C88.5 9.78273 96.7827 1.5 107 1.5C117.217 1.5 125.5 9.78273 125.5 20Z" stroke="#DC1616" stroke-width="3"/>
+<line x1="55" y1="19.5" x2="87" y2="19.5" stroke="#DC1616" stroke-width="5"/>
+<line x1="127" y1="19.5" x2="160" y2="19.5" stroke="#DC1616" stroke-width="5"/>
+<line x1="60" y1="123.5" x2="93" y2="123.5" stroke="#34995D" stroke-width="5"/>
+<line x1="127" y1="123.5" x2="160" y2="123.5" stroke="#34995D" stroke-width="5"/>
+<circle cx="94" cy="123" r="4.5" fill="#FCFCFC" stroke="#34995D"/>
+<circle cx="123" cy="123" r="4.5" fill="#FFFBFB" stroke="#34995D"/>
+<line x1="97.517" y1="120.987" x2="116.517" y2="106.987" stroke="#34995D" stroke-width="5"/>
+<circle cx="6" cy="123" r="5" fill="#605EE3"/>
+<circle cx="56" cy="123" r="5" fill="#605EE3"/>
+<line x1="7" y1="122.5" x2="57" y2="122.5" stroke="#605EE3" stroke-width="5"/>
+<line x1="195" y1="60.5" x2="225" y2="60.5" stroke="#DC1616" stroke-width="3"/>
+<line x1="200" y1="66.5" x2="220" y2="66.5" stroke="#DC1616" stroke-width="3"/>
+<line x1="195" y1="72.5" x2="225" y2="72.5" stroke="#DC1616" stroke-width="3"/>
+<line x1="200" y1="78.5" x2="220" y2="78.5" stroke="#DC1616" stroke-width="3"/>
+<line x1="210.5" y1="21" x2="210.5" y2="59" stroke="#DC1616" stroke-width="5"/>
+<line x1="210.5" y1="77" x2="210.5" y2="119" stroke="#DC1616" stroke-width="5"/>
+<circle cx="160" cy="123" r="5" fill="#605EE3"/>
+<circle cx="211" cy="123" r="5" fill="#605EE3"/>
+<line x1="161" y1="122.5" x2="211" y2="122.5" stroke="#605EE3" stroke-width="5"/>
+<circle cx="160" cy="19" r="5" fill="#605EE3"/>
+<circle cx="210" cy="19" r="5" fill="#605EE3"/>
+<line x1="161" y1="18.5" x2="211" y2="18.5" stroke="#605EE3" stroke-width="5"/>
+<circle cx="5" cy="19" r="5" fill="#605EE3"/>
+<circle cx="55" cy="19" r="5" fill="#605EE3"/>
+<line x1="6" y1="18.5" x2="56" y2="18.5" stroke="#605EE3" stroke-width="5"/>
+</svg>
