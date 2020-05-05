@@ -25,8 +25,10 @@ function isNearOutline(detail, outline) {
     var o = outline;
     var ax = a.x();
     var ay = a.y();
-
-    if (ax > o.x - 20 && ax < o.x + 20 && ay > o.y - 20 && ay < o.y + 20) {
+    var id = a.id();
+    //ax > o.x - 20 && ax < o.x + 20 && ay > o.y - 20 && ay < o.y + 20
+    if (id === o.id) {
+        // console.log(id);
         return true;
     } else {
         return false;
@@ -48,78 +50,94 @@ function initStage(images) {
         height: 530
     });
     var background = new Konva.Layer();
-    var animalLayer = new Konva.Layer();
-    var animalShapes = [];
+    var detailLayer = new Konva.Layer();
+    var detailShapes = [];
     var score = 0;
 
     // image positions
     var details= {
         first: {
             x: 450,
-            y: 130
+            y: 130,
+            id: 2
         },
         second: {
             x: 450,
-            y: 100
+            y: 100,
+            id: 2
         },
         three: {
             x: 450,
-            y: 60
+            y: 60,
+            id: 2
         },
         four:{
             x: 450,
-            y: 180
+            y: 180,
+            id: 2
         },
         five: {
             x: 0,
-            y: 0
+            y: 0,
+            id: 3
         },
         six:{
             x: 250,
-            y: 300
+            y: 300,
+            id: 15
         },
         seven: {
             x: 400,
-            y: 300
+            y: 300,
+            id: 18
         },
         eight: {
             x: 0,
-            y: 200
+            y: 200,
+            id: 19
         }
     };
 
     var outlines = {
         first_black:{
             x: 120,
-            y: 126
+            y: 126,
+            id: 2
         },
         second_black:{
             x: 233,
-            y: 126
+            y: 126,
+            id: 2
         },
         three_black:{
             x: 120,
-            y: 241
+            y: 241,
+            id: 2
         },
         four_black:{
             x: 233,
-            y: 241
+            y: 241,
+            id: 2
         },
         five_black:{
             x: 118,
-            y: 126
+            y: 126,
+            id: 3
         },
         six_black:{
             x: 179,
-            y: 241
+            y: 241,
+            id: 15
         },
         seven_black:{
             x: 179,
-            y: 126
+            y: 126,
+            id: 18
         },
         eight_black:{
             x: 286,
-            y: 126
+            y: 126,
+            id: 19
         }
     };
 
@@ -128,18 +146,19 @@ function initStage(images) {
         // anonymous function to induce scope
         (function() {
             var privKey = key;
-            var anim = details[key];
+            var det = details[key];
 
             var animal = new Konva.Image({
                 image: images[key],
-                x: anim.x,
-                y: anim.y,
+                x: det.x,
+                y: det.y,
+                id: det.id,
                 draggable: true,
                 name: key
             });
             animal.on('dragstart', function() {
                 this.moveToTop();
-                animalLayer.draw();
+                detailLayer.draw();
             });
             /*
              * check if animal is in the right spot and
@@ -152,7 +171,7 @@ function initStage(images) {
                         x: outline.x,
                         y: outline.y
                     });
-                    animalLayer.draw();
+                    detailLayer.draw();
                     animal.inRightPlace = true;
 
                     if (++score >= 8) {
@@ -164,7 +183,7 @@ function initStage(images) {
                             stroke: 'yellow',
                             strokeWidth: 0,
                         });
-                        animalLayer.add(circle);
+                        detailLayer.add(circle);
                         var text = 'Поздравляем вы прошли уровень';
                         drawBackground(background, images.rename, text);
                     }
@@ -178,13 +197,13 @@ function initStage(images) {
             // make animal glow on mouseover
             animal.on('mouseover', function() {
                 // animal.image(images[privKey + '_glow']);
-                animalLayer.draw();
+                detailLayer.draw();
                 document.body.style.cursor = 'pointer';
             });
             // return animal on mouseout
             animal.on('mouseout', function() {
                 animal.image(images[privKey]);
-                animalLayer.draw();
+                detailLayer.draw();
                 document.body.style.cursor = 'default';
             });
 
@@ -192,8 +211,8 @@ function initStage(images) {
                 document.body.style.cursor = 'pointer';
             });
 
-            animalLayer.add(animal);
-            animalShapes.push(animal);
+            detailLayer.add(animal);
+            detailShapes.push(animal);
         })();
     }
 
@@ -210,12 +229,12 @@ function initStage(images) {
                 y: out.y
             });
 
-            animalLayer.add(outline);
+            detailLayer.add(outline);
         })();
     }
 
     stage.add(background);
-    stage.add(animalLayer);
+    stage.add(detailLayer);
 
     drawBackground(
         background,
