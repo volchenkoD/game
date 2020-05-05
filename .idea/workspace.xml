@@ -2,9 +2,111 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8141489f-331a-48bb-9a81-4e3023716f0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main__logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/ObjectLesson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/changeHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/changeImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/changeText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/createElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/createLesson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/createMiniThems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/drawBackground.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/initStage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/isNearOutline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/lesson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/loadImages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/nextLesson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/15_black.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/15_black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/18.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/18_black.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/18_black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/18_light.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/18_light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/19.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/19_black.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/19_black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/19_black_rotate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/19_black_rotate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/19_rotate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/19_rotate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/1_black.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/1_black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/20.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/24.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/25.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/26.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/27.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/28.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/2_black.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/2_black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/2_black_rotate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/2_black_rotate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/2_rotate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/2_rotate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/30.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/31.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/33.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/3_black.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/3_black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/3_black_rotation.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/3_black_rotation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/3_rotation.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/3_rotation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/40.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/41.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/42.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/42.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/43.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/43.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/44.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/4_black.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/4_black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/4_black_rotation.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/4_black_rotation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/4_rotation.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/4_rotation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/51.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/51.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/52.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/52.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/53.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/53.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/54.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/54.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/rename.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/rename.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main__logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/main__logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/lesson1-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/lesson1-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/lesson1-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/lesson1-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/lesson1-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/lesson1-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/lesson10-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/lesson10-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/lesson3-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/lesson3-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/lesson5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/lesson5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/lesson6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/lesson6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/lesson7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/lesson7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/lesson8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/lesson8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/lesson9.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/lesson9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/Монтажная область 24-27.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/Монтажная область 24-27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/Схема 10-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/Схема 10-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/Схема 12.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/Схема 12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/Схема 13.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/Схема 13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/Схема 14-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/Схема 14-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/Схема 16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/Схема 16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/Схема 17.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/Схема 17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/Схема 18-23.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/Схема 18-23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/Схема 5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/Схема 5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/Схема 6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/Схема 6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/Схема 7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/Схема 7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/Схема 8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/Схема 8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/Схема 9.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/Схема 9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/schema/Схема3-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/schema/Схема3-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +132,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sverx\WebstormProjects\game__electron\src" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -49,7 +158,7 @@
       <workItem from="1588581571812" duration="338000" />
       <workItem from="1588586880318" duration="5047000" />
       <workItem from="1588653063751" duration="9206000" />
-      <workItem from="1588666311593" duration="1617000" />
+      <workItem from="1588666311593" duration="6652000" />
     </task>
     <servers />
   </component>

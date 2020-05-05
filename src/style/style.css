@@ -75,13 +75,7 @@
     column-gap: 20px;
     margin: 0 20px;
 }
-.canvas{
-    width: 530px;
-    height: 400px;
-    background: url("../img/rename.png") no-repeat top;
-    background-size: 500px 370px;
-    position: relative;
-}
+
 .drap__zone {
     margin-right: 30px;
 }
@@ -100,14 +94,6 @@
 }
 .drap__zone-elements{
     border: 1px solid black;
-}
-#drapCanvas{
-    /*border: 1px solid #000;*/
-    background-image: url('../img/rename.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
 }
 .footer{
     margin-top: 50px;
