@@ -1,2801 +1,2718 @@
 export default {
   "lesson1": [
+    // первый подуровень
     {
       "part": "Лампа",
-  "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
-  "img": "../src/img/schema/lesson1-2.png",
-  "details": [
-    {
-      "src": "../src/img/details/2.png",
-      "width": 26,
-      "height": 72
+      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
+      "img": "../src/img/schema/lesson1-2.png",
+      "sources": {
+        "rename": 'rename.png',
+        "first": '2_rotate.png',
+        "first_black": '2_black_rotate.png',
+        "second": '2_rotate.png',
+        "second_black": '2_black_rotate.png',
+        "three": '2_rotate.png',
+        "three_black": '2_black_rotate.png',
+        "four": '2_rotate.png',
+        "four_black": '2_black_rotate.png',
+        "five": '3.png',
+        "five_black": '3_black.png',
+        "six": '15.png',
+        "six_black": '15_black.png',
+        "seven": '18.png',
+        "seven_black": '18_black.png',
+        "eight": '19_rotate.png',
+        "eight_black": '19_black_rotate.png'
+      },
+      "detail_position": {
+        "first": {
+          x: 50,
+          y: 130,
+          id: 2
+        },
+        "second": {
+          x: 250,
+          y: 60,
+          id: 2
+        },
+        "three": {
+          x: 150,
+          y: 300,
+          id: 2
+        },
+        "four": {
+          x: 450,
+          y: 200,
+          id: 2
+        },
+        "five": {
+          x: 0,
+          y: 0,
+          id: 3
+        },
+        "six": {
+          x: 250,
+          y: 300,
+          id: 15
+        },
+        "seven": {
+          x: 400,
+          y: 300,
+          id: 18
+        },
+        "eight": {
+          x: 0,
+          y: 200,
+          id: 19
+        }
+      },
+      "outline_detail": {
+        "first_black": {
+          x: 120,
+          y: 126,
+          id: 2
+        },
+        "second_black": {
+          x: 233,
+          y: 126,
+          id: 2
+        },
+        "three_black": {
+          x: 120,
+          y: 241,
+          id: 2
+        },
+        "four_black": {
+          x: 233,
+          y: 241,
+          id: 2
+        },
+        "five_black": {
+          x: 118,
+          y: 126,
+          id: 3
+        },
+        "six_black": {
+          x: 179,
+          y: 241,
+          id: 15
+        },
+        "seven_black": {
+          x: 179,
+          y: 126,
+          id: 18
+        },
+        "eight_black": {
+          x: 286,
+          y: 126,
+          id: 19
+        }
+      }
     },
+    // второй подуровень
     {
-      "src": "../src/img/details/2.png",
-      "width": 26,
-      "height": 72
-    },
-    {
-      "src": "../src/img/details/2.png",
-      "width": 26,
-      "height": 72
-    },
-    {
-      "src": "../src/img/details/2.png",
-      "width": 26,
-      "height": 72
-    },
-    {
-      "src": "../src/img/details/3.png",
-      "width": 22,
-      "height": 132
-    },
-    {
-      "src": "../src/img/details/18.png",
-      "width": 64,
-      "height": 22
-    },
-    {
-      "src": "../src/img/details/19.png",
-      "width": 130,
-      "height": 88
-    },
-    {
-      "src": "../src/img/details/15.png",
-      "width": 66,
-      "height": 22
-    }
-  ]
-},
-{
-  "part": "Лампа управляемая магнитом",
-    "text": "При замене выключателся на геркон лампа может управляться магнитом." +
+      "part": "Лампа управляемая магнитом",
+      "text": "При замене выключателся на геркон лампа может управляться магнитом." +
         "Если рядом с герконом поместить магнит, лампа загорится. Если магнит убрать, лампа погаснет",
-    "img": "../src/img/schema/lesson1-2.png",
-    "details": [
-      {
-        "src": "../src/img/details/2.png",
-        "width": 26,
-        "height": 72
+      "img": "../src/img/schema/lesson1-2.png",
+      "sources": {
+        "rename": 'rename.png',
+        "first": '2_rotate.png',
+        "first_black": '2_black_rotate.png',
+        "second": '2_rotate.png',
+        "second_black": '2_black_rotate.png',
+        "three": '2_rotate.png',
+        "three_black": '2_black_rotate.png',
+        "four": '2_rotate.png',
+        "four_black": '2_black_rotate.png',
+        "five": '3.png',
+        "five_black": '3_black.png',
+        "six": '15.png',
+        "six_black": '15_black.png',
+        "seven": '18.png',
+        "seven_black": '18_black.png',
+        "eight": '19_rotate.png',
+        "eight_black": '19_black_rotate.png',
+        "nine": "33.png",
+        "ten": "14.png"
       },
-      {
-        "src": "../src/img/details/2.png",
-        "width": 26,
-        "height": 72
+      "detail_position": {
+        "first": {
+          x: 50,
+          y: 130,
+          id: 2
+        },
+        "second": {
+          x: 250,
+          y: 60,
+          id: 2
+        },
+        "three": {
+          x: 150,
+          y: 300,
+          id: 2
+        },
+        "four": {
+          x: 450,
+          y: 200,
+          id: 2
+        },
+        "five": {
+          x: 0,
+          y: 0,
+          id: 3
+        },
+        "six": {
+          x: 250,
+          y: 300,
+          id: 15
+        },
+        "seven": {
+          x: 400,
+          y: 300,
+          id: 18
+        },
+        "eight": {
+          x: 0,
+          y: 200,
+          id: 19
+        },
+        "nine": {
+          x: 150,
+          y: 80
+        },
+        "ten": {
+          x: 150,
+          y: 350
+        }
       },
-      {
-        "src": "../src/img/details/2.png",
-        "width": 26,
-        "height": 72
-      },
-      {
-        "src": "../src/img/details/2.png",
-        "width": 26,
-        "height": 72
-      },
-      {
-        "src": "../src/img/details/3.png",
-        "width": 22,
-        "height": 132
-      },
-      {
-        "src": "../src/img/details/18.png",
-        "width": 64,
-        "height": 22
-      },
-      {
-        "src": "../src/img/details/19.png",
-        "width": 66,
-        "height": 44
-      },
-      {
-        "src": "../src/img/details/15.png",
-        "width": 66,
-        "height": 22
+      "outline_detail": {
+        "first_black": {
+          x: 120,
+          y: 126,
+          id: 2
+        },
+        "second_black": {
+          x: 233,
+          y: 126,
+          id: 2
+        },
+        "three_black": {
+          x: 120,
+          y: 241,
+          id: 2
+        },
+        "four_black": {
+          x: 233,
+          y: 241,
+          id: 2
+        },
+        "five_black": {
+          x: 118,
+          y: 126,
+          id: 3
+        },
+        "six_black": {
+          x: 179,
+          y: 241,
+          id: 15
+        },
+        "seven_black": {
+          x: 179,
+          y: 126,
+          id: 18
+        },
+        "eight_black": {
+          x: 286,
+          y: 126,
+          id: 19
+        }
       }
-]
-},
-{
-  "part": "Электрический вентилятор",
-    "text": "Вначале установите пропеллер вентилятора, затем замкните выключатель. Вентилятор начнет вращаться",
-    "img": "../src/img/schema/lesson3-4.png",
-    "details": [{
-    "src": "../src/img/details/2.png",
-      "width": 26,
-      "height": 72
     },
-      {
-        "src": "../src/img/details/2.png",
-        "width": 26,
-        "height": 72
+    // третий подуровень
+    {
+      // 4 подуровень
+      "part": "Электрический вентилятор",
+      "text": "Вначале установите пропеллер вентилятора, затем замкните выключатель. Вентилятор начнет вращаться",
+      "img": "../src/img/schema/lesson3-4.png",
+      "sources": {
+        "rename": 'rename.png',
+        "first": '2_rotate.png',
+        "first_black": '2_black_rotate.png',
+        "second": '2_rotate.png',
+        "second_black": '2_black_rotate.png',
+        "three": '2_rotate.png',
+        "three_black": '2_black_rotate.png',
+        "four": '2_rotate.png',
+        "four_black": '2_black_rotate.png',
+        "five": '3.png',
+        "five_black": '3_black.png',
+        "six": '15.png',
+        "six_black": '15_black.png',
+        "seven": '24.png',
+        "seven_black": '18_black.png',
+        "eight": '19_rotate.png',
+        "eight_black": '19_black_rotate.png'
       },
-      {
-        "src": "../src/img/details/2.png",
-        "width": 26,
-        "height": 72
+      "detail_position": {
+        "first": {
+          x: 50,
+          y: 130,
+          id: 2
+        },
+        "second": {
+          x: 250,
+          y: 60,
+          id: 2
+        },
+        "three": {
+          x: 150,
+          y: 300,
+          id: 2
+        },
+        "four": {
+          x: 450,
+          y: 200,
+          id: 2
+        },
+        "five": {
+          x: 0,
+          y: 0,
+          id: 3
+        },
+        "six": {
+          x: 250,
+          y: 300,
+          id: 15
+        },
+        "seven": {
+          x: 400,
+          y: 300,
+          id: 18
+        },
+        "eight": {
+          x: 0,
+          y: 200,
+          id: 19
+        }
       },
-      {
-        "src": "../src/img/details/2.png",
-        "width": 26,
-        "height": 72
-      },
-      {
-        "src": "../src/img/details/3.png",
-        "width": 22,
-        "height": 132
-      },{
-        "src": "../src/img/details/15.png",
-        "width": 66,
-        "height": 22
-      },
-      {
-        "src": "../src/img/details/24.png",
-        "width": 66,
-        "height": 22
-      },
-      {
-        "src": "../src/img/details/19.png",
-        "width": 66,
-        "height": 44
+      "outline_detail": {
+        "first_black": {
+          x: 120,
+          y: 126,
+          id: 2
+        },
+        "second_black": {
+          x: 233,
+          y: 126,
+          id: 2
+        },
+        "three_black": {
+          x: 120,
+          y: 241,
+          id: 2
+        },
+        "four_black": {
+          x: 233,
+          y: 241,
+          id: 2
+        },
+        "five_black": {
+          x: 118,
+          y: 126,
+          id: 3
+        },
+        "six_black": {
+          x: 179,
+          y: 241,
+          id: 15
+        },
+        "seven_black": {
+          x: 179,
+          y: 126,
+          id: 18
+        },
+        "eight_black": {
+          x: 286,
+          y: 126,
+          id: 19
+        }
       }
-]
-},
-{
-  "part": "Вентилятор управляемый магнитом",
-    "text": "Замените выключатель герконом, и Вы получите магнитоуправляемый вентилятор",
-    "img": "../src/img/schema/lesson3-4.png",
-    "details": [
-      {
-        "src": "../src/img/details/2.png",
-        "width": 26,
-        "height": 72
+    },
+    // 4 подуровень
+    {
+      "part": "Вентилятор управляемый магнитом",
+      "text": "Замените выключатель герконом, и Вы получите магнитоуправляемый вентилятор",
+      "img": "../src/img/schema/lesson3-4.png",
+      "sources": {
+        "rename": 'rename.png',
+        "first": '2_rotate.png',
+        "first_black": '2_black_rotate.png',
+        "second": '2_rotate.png',
+        "second_black": '2_black_rotate.png',
+        "three": '2_rotate.png',
+        "three_black": '2_black_rotate.png',
+        "four": '2_rotate.png',
+        "four_black": '2_black_rotate.png',
+        "five": '3.png',
+        "five_black": '3_black.png',
+        "six": '15.png',
+        "six_black": '15_black.png',
+        "seven": '24.png',
+        "seven_black": '18_black.png',
+        "eight": '19_rotate.png',
+        "eight_black": '19_black_rotate.png',
+        "nine": "33.png",
+        "ten": "14.png"
       },
-      {
-        "src": "../src/img/details/2.png",
-        "width": 26,
-        "height": 72
+      "detail_position": {
+        "first": {
+          x: 50,
+          y: 130,
+          id: 2
+        },
+        "second": {
+          x: 250,
+          y: 60,
+          id: 2
+        },
+        "three": {
+          x: 150,
+          y: 300,
+          id: 2
+        },
+        "four": {
+          x: 450,
+          y: 200,
+          id: 2
+        },
+        "five": {
+          x: 0,
+          y: 0,
+          id: 3
+        },
+        "six": {
+          x: 250,
+          y: 300,
+          id: 15
+        },
+        "seven": {
+          x: 400,
+          y: 300,
+          id: 18
+        },
+        "eight": {
+          x: 0,
+          y: 200,
+          id: 19
+        },
+        "nine": {
+          x: 150,
+          y: 80
+        },
+        "ten": {
+          x: 150,
+          y: 350
+        }
       },
-      {
-        "src": "../src/img/details/2.png",
-        "width": 26,
-        "height": 72
-      },
-      {
-        "src": "../src/img/details/2.png",
-        "width": 26,
-        "height": 72
-      },
-      {
-        "src": "../src/img/details/3.png",
-        "width": 22,
-        "height": 132
-      },{
-        "src": "../src/img/details/15.png",
-        "width": 66,
-        "height": 22
-      },
-      {
-        "src": "../src/img/details/24.png",
-        "width": 66,
-        "height": 22
-      },
-      {
-        "src": "../src/img/details/19.png",
-        "width": 66,
-        "height": 44
+      "outline_detail": {
+        "first_black": {
+          x: 120,
+          y: 126,
+          id: 2
+        },
+        "second_black": {
+          x: 233,
+          y: 126,
+          id: 2
+        },
+        "three_black": {
+          x: 120,
+          y: 241,
+          id: 2
+        },
+        "four_black": {
+          x: 233,
+          y: 241,
+          id: 2
+        },
+        "five_black": {
+          x: 118,
+          y: 126,
+          id: 3
+        },
+        "six_black": {
+          x: 179,
+          y: 241,
+          id: 15
+        },
+        "seven_black": {
+          x: 179,
+          y: 126,
+          id: 18
+        },
+        "eight_black": {
+          x: 286,
+          y: 126,
+          id: 19
+        }
       }
-]
-},
-{
-  "part": "Последовательное соединение лампы и вентилятора",
-    "text": "Замкните выключатель - вентилятор начнет вращаться, а лампа загорится. При размыкании выключателя" +
+    },
+    // 5 подуровень
+    {
+      "part": "Последовательное соединение лампы и вентилятора",
+      "text": "Замкните выключатель - вентилятор начнет вращаться, а лампа загорится. При размыкании выключателя" +
         "вентилятор остановитсяб а лампа погаснет",
-    "img": "../src/img/schema/lesson5.png",
-    "details": [
-      "../src/img/details/18.png",
-      "../src/img/details/24.png",
-      "../src/img/details/15.png",
-      "../src/img/details/19.png",
-      "../src/img/details/3.png",
-      "../src/img/details/19.png"
-]
-},
-{
-  "part": "Параллельное соединение лампы и вентилятора",
-    "text": "Замкните выключатель - вентилятор начнет вращаться, а лампа загорится. При размыкании выключателя" +
+      "img": "../src/img/schema/lesson5.png",
+      "sources": {
+        "rename": 'rename.png',
+        "first": "3.png",
+        "second": "19.png",
+        "three": "18.png",
+        "four": "24.png",
+        "five": "15.png",
+        "six": "19.png"
+      },
+      "detail_position": {
+        "first": {
+          x: 0,
+          y: 0
+        },
+        "second": {
+          x: 0,
+          y: 0
+        },
+        "three": {
+          x: 0,
+          y: 0
+        },
+        "four": {
+          x: 0,
+          y: 0
+        },
+        "five": {
+          x: 0,
+          y: 0
+        },
+        "six": {
+          x: 0,
+          y: 0
+        }
+      },
+      "outline_detail": {
+
+      }
+    },
+    {
+      "part": "Параллельное соединение лампы и вентилятора",
+      "text": "Замкните выключатель - вентилятор начнет вращаться, а лампа загорится. При размыкании выключателя" +
         "вентилятор остановитсяб а лампа погаснет",
-    "img": "../src/img/schema/lesson6.png",
-    "details": [
-      "../src/img/details/18.png",
-      "../src/img/details/24.png",
-      "../src/img/details/15.png",
-      "../src/img/details/19.png",
-      "../src/img/details/3.png",
-      "../src/img/details/3.png",
-      "../src/img/details/3.png"
-]
-},
-{
-  "part": "Светодиод",
-    "text": "Замкните выключатель - загорится светодиод, но не лампа. Это объясняется тем, что для светодиода" +
+      "img": "../src/img/schema/lesson6.png",
+      "details": [
+        "../src/img/details/18.png",
+        "../src/img/details/24.png",
+        "../src/img/details/15.png",
+        "../src/img/details/19.png",
+        "../src/img/details/3.png",
+        "../src/img/details/3.png",
+        "../src/img/details/3.png"
+      ]
+    },
+    {
+      "part": "Светодиод",
+      "text": "Замкните выключатель - загорится светодиод, но не лампа. Это объясняется тем, что для светодиода" +
         "достаточен даже небольшой ток, в то время как, необходимый для свечения лампы, должен быть значительно выше" +
         "В данной последовательной цепи ток невысокий",
-    "img": "../src/img/schema/lesson7.png",
-    "details": [
-      "../src/img/details/2.png",
-      "../src/img/details/2.png",
-      "../src/img/details/2.png",
-      "../src/img/details/2.png",
-      "../src/img/details/17.png",
-      "../src/img/details/18.png",
-      "../src/img/details/19.png",
-      "../src/img/details/15.png"
-]
-},
-{
-  "part": "Проверка проводимости светодиода",
-    "text": "Замкните выключатель - ни светодиод, ни лампа не загорится, поскольку светодиод проводитток лишть в одном" +
+      "img": "../src/img/schema/lesson7.png",
+      "details": [
+        "../src/img/details/2.png",
+        "../src/img/details/2.png",
+        "../src/img/details/2.png",
+        "../src/img/details/2.png",
+        "../src/img/details/17.png",
+        "../src/img/details/18.png",
+        "../src/img/details/19.png",
+        "../src/img/details/15.png"
+      ]
+    },
+    {
+      "part": "Проверка проводимости светодиода",
+      "text": "Замкните выключатель - ни светодиод, ни лампа не загорится, поскольку светодиод проводитток лишть в одном" +
         "направлении, т.е. он позволяет току течь только от положительного полюча к отрицательному, но не наоборот" +
         "Поменяйте порярность светодиода и убедитесь, что он загорится.",
-    "img": "../src/img/schema/lesson8.png",
-    "details": [
-      "../src/img/details/2.png",
-      "../src/img/details/2.png",
-      "../src/img/details/2.png",
-      "../src/img/details/2.png",
-      "../src/img/details/17.png",
-      "../src/img/details/18.png",
-      "../src/img/details/19.png",
-      "../src/img/details/15.png"
-]
-},
-{
-  "part": "Тестер электропроводности",
-    "text": "С помощью этого тестера можно узнать, проводит ли ток тот или иной, встречающийся в повседневной жизни, предмет" +
+      "img": "../src/img/schema/lesson8.png",
+      "details": [
+        "../src/img/details/2.png",
+        "../src/img/details/2.png",
+        "../src/img/details/2.png",
+        "../src/img/details/2.png",
+        "../src/img/details/17.png",
+        "../src/img/details/18.png",
+        "../src/img/details/19.png",
+        "../src/img/details/15.png"
+      ]
+    },
+    {
+      "part": "Тестер электропроводности",
+      "text": "С помощью этого тестера можно узнать, проводит ли ток тот или иной, встречающийся в повседневной жизни, предмет" +
         "Для этого нужно подсоединить этот предметк клеммам А и В. Если лампа загорится, значит этот предмет является" +
         "проводником, как, например, стальной нож или алюминиевая ложка. Если лампа не загорается, значит, предмет не является " +
         "проводником, как, например, пластмассовый или деревянный кубик. Чем выше электропроводимость, тем ниже сопротивление",
-    "img": "../src/img/schema/lesson9.png",
-    "details": [
-      "../src/img/details/2.png",
-      "../src/img/details/18.png",
-      "../src/img/details/19.png"
-]
-},
-{
-  "part": "Попеременное включение лампы и светодиода",
-    "text": "Когда выключатель замкнут, горит лишь светодиод. Если рядом с герконом поместить магнит, светодиод погаснет, а лампа загорится.",
-    "img": "../src/img/schema/lesson10-11.png",
-    "details": [
-      "../src/img/details/2.png",
-      "../src/img/details/2.png",
-      "../src/img/details/13.png",
-      "../src/img/details/17.png",
-      "../src/img/details/18.png",
-      "../src/img/details/19.png",
-      "../src/img/details/15.png"
-]
-}
-],
-  "lesson2": [
-    {
-      "part": "Лампа",
-      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
-      "img": "../static/img/schema/1.jpg",
+      "img": "../src/img/schema/lesson9.png",
       "details": [
+        "../src/img/details/2.png",
+        "../src/img/details/18.png",
+        "../src/img/details/19.png"
       ]
     },
     {
-      "part": "Лампа",
-      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
-      "img": "../static/img/schema/1.jpg",
+      "part": "Попеременное включение лампы и светодиода",
+      "text": "Когда выключатель замкнут, горит лишь светодиод. Если рядом с герконом поместить магнит, светодиод погаснет, а лампа загорится.",
+      "img": "../src/img/schema/lesson10-11.png",
       "details": [
-      ]
-    },
-    {
-      "part": "Лампа",
-      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
-      "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
-    },
-    {
-      "part": "Лампа",
-      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
-      "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
-    },
-    {
-      "part": "Лампа",
-      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
-      "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
-    },
-    {
-      "part": "Лампа",
-      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
-      "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
-    },
-    {
-      "part": "Лампа",
-      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
-      "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
-    },
-    {
-      "part": "Лампа",
-      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
-      "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
-    },
-    {
-      "part": "Лампа",
-      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
-      "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
-    },
-    {
-      "part": "Лампа",
-      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
-      "img": "../static/img/schema/1.jpg",
-      "details": [
+        "../src/img/details/2.png",
+        "../src/img/details/2.png",
+        "../src/img/details/13.png",
+        "../src/img/details/17.png",
+        "../src/img/details/18.png",
+        "../src/img/details/19.png",
+        "../src/img/details/15.png"
       ]
     }
   ],
-  "lesson3": [
-    {
+  "lesson2": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson4": [
-    {
+  "lesson3": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson5": [
-    {
+  "lesson4": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson6": [
-    {
+  "lesson5": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson7": [
-    {
+  "lesson6": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson8": [
-    {
+  "lesson7": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson9": [
-    {
+  "lesson8": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson10": [
-    {
+  "lesson9": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson11": [
-    {
+  "lesson10": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson12": [
-    {
+  "lesson11": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson13": [
-    {
+  "lesson12": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson14": [
-    {
+  "lesson13": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson15": [
-    {
+  "lesson14": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson16": [
-    {
+  "lesson15": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson17": [
-    {
+  "lesson16": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson18": [
-    {
+  "lesson17": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson19": [
-    {
+  "lesson18": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson20": [
-    {
+  "lesson19": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson21": [
-    {
+  "lesson20": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson22": [
-    {
+  "lesson21": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson23": [
-    {
+  "lesson22": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson24": [
-    {
+  "lesson23": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson25": [
-    {
+  "lesson24": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson26": [
-    {
+  "lesson25": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson27": [
-    {
+  "lesson26": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson28": [
-    {
+  "lesson27": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson29": [
-    {
+  "lesson28": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson30": [
-    {
+  "lesson29": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson31": [
-    {
+  "lesson30": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson32": [
-    {
+  "lesson31": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson33": [
-    {
+  "lesson32": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson34": [
-    {
+  "lesson33": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson35": [
-    {
+  "lesson34": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     }
   ],
-  "lesson36": [
-    {
+  "lesson35": [{
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
     },
     {
       "part": "Лампа",
       "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
       "img": "../static/img/schema/1.jpg",
-      "details": [
-      ]
+      "details": []
+    }
+  ],
+  "lesson36": [{
+      "part": "Лампа",
+      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
+      "img": "../static/img/schema/1.jpg",
+      "details": []
+    },
+    {
+      "part": "Лампа",
+      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
+      "img": "../static/img/schema/1.jpg",
+      "details": []
+    },
+    {
+      "part": "Лампа",
+      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
+      "img": "../static/img/schema/1.jpg",
+      "details": []
+    },
+    {
+      "part": "Лампа",
+      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
+      "img": "../static/img/schema/1.jpg",
+      "details": []
+    },
+    {
+      "part": "Лампа",
+      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
+      "img": "../static/img/schema/1.jpg",
+      "details": []
+    },
+    {
+      "part": "Лампа",
+      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
+      "img": "../static/img/schema/1.jpg",
+      "details": []
+    },
+    {
+      "part": "Лампа",
+      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
+      "img": "../static/img/schema/1.jpg",
+      "details": []
+    },
+    {
+      "part": "Лампа",
+      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
+      "img": "../static/img/schema/1.jpg",
+      "details": []
+    },
+    {
+      "part": "Лампа",
+      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
+      "img": "../static/img/schema/1.jpg",
+      "details": []
+    },
+    {
+      "part": "Лампа",
+      "text": "При замыкании выключателя лампа загорается. Она гаснет, когда выключатель размыкается",
+      "img": "../static/img/schema/1.jpg",
+      "details": []
     }
   ]
 }
-

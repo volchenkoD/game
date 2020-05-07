@@ -1,11 +1,10 @@
-
+import loadImages from "./loadImages";
+import initStage from "./initStage";
 let count = 0;
 export default function (data) {
     const checkboxLabel = document.querySelectorAll('.mini__lesson li');
     const checkbox = document.querySelectorAll('.mini__lesson input');
-    const drapZone = document.querySelector('.drap__zone');
     const button = document.querySelector('.next__lesson');
-    const dragElement = document.querySelector('.drap__zone-elements');
     const header = document.querySelector('.lesson__name');
     const text = document.querySelector('.lesson__text');
     const img = document.querySelector('.img__schema');
@@ -13,8 +12,6 @@ export default function (data) {
      function clickPlus() {
         printArr(checkboxLabel);
          printData(data);
-         changeDetail(data);
-         createDrop();
     }
     function printArr(arr) {
         if (count < arr.length) {
@@ -35,6 +32,8 @@ export default function (data) {
                  header.innerHTML = data[count].part;
                  text.innerHTML = data[count].text;
                  img.setAttribute('src', data[count].img);
+                 console.log(data[i].sources);
+                 loadImages(data[i].sources, initStage);
              }
          }
     }
