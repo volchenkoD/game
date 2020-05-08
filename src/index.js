@@ -20,6 +20,7 @@ window.onload = function () {
             textInfo.innerHTML = result[key][0].text;
             imagePosition = result[key][0].detail_position;
             darkPosition = result[key][0].outline_detail;
+            scoreLevel = result[key][0].score;
             textPart.append(headerInfo);
             textPart.append(textInfo);
             textPart.append(imageInfo);
@@ -32,11 +33,11 @@ let i = 1;
 // переменная устанавливающая подурок
 let count = 1;
 // переменные, значения которых будут изменяться при смене урока
-let header, text, image, imagePosition, darkPosition;
+let header, text, image, imagePosition, darkPosition, scoreLevel;
 // получаем кнопку, переключатель урока
 const go = document.querySelector('.go');
 // устанавливаем на кнопку событие
-go.addEventListener('click', changeValue);
+// go.addEventListener('click', changeValue);
 let width = window.innerWidth;
 let height = window.innerHeight;
 /*
@@ -54,6 +55,7 @@ function changeValue(data, value) {
                     image = data[key][j].img;
                     imagePosition = data[key][j].detail_position;
                     darkPosition = data[key][j].outline_detail;
+                    scoreLevel = data[key][j].score;
                     createLesson(header, text, image);
                     loadedImages(data[key][j].sources, initStage);
                 }
@@ -170,7 +172,7 @@ function initStage(images) {
                     detailLayer.draw();
                     animal.inRightPlace = true;
 
-                    if (++score >= 8) {
+                    if (++score >= scoreLevel) {
                         let circle = new Konva.Circle({
                             x: 213,
                             y: 139,
@@ -180,6 +182,8 @@ function initStage(images) {
                             strokeWidth: 0,
                         });
                         detailLayer.add(circle);
+                        // устанавливаем на кнопку событие
+                        go.addEventListener('click', changeValue);
                         var text = 'Поздравляем вы прошли уровень';
                         drawBackground(background, images.rename, text);
                     }

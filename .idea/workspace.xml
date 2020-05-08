@@ -3,20 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="8141489f-331a-48bb-9a81-4e3023716f0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/main__logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/details/19.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/details/19_black.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/19_black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/details/19_black_rotate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/19_black_rotate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/details/19_rotate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/details/19_rotate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/details/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/details/3_black_rotation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/details/3_rotation.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/ObjectLesson.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/ObjectLesson.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/createElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/createElement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/createLesson.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/createLesson.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/isNearOutline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/isNearOutline.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/lesson.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lesson.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/nextLesson.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/nextLesson.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +68,8 @@
       <workItem from="1588694226552" duration="735000" />
       <workItem from="1588828938150" duration="2303000" />
       <workItem from="1588833146012" duration="1796000" />
-      <workItem from="1588848497681" duration="52000" />
+      <workItem from="1588848497681" duration="839000" />
+      <workItem from="1588916747060" duration="11968000" />
     </task>
     <servers />
   </component>
