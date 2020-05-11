@@ -21,7 +21,7 @@ export default {
         "six_black": '15_black.png',
         "seven": '18.png',
         "seven_black": '18_black.png',
-        "eight": '19_rotate.png',
+        "eight": '19_rotate2.png',
         "eight_black": '19_black.png'
       },
       "score": 8,
@@ -132,7 +132,7 @@ export default {
         "six_black": '15_black.png',
         "seven": '18.png',
         "seven_black": '18_black.png',
-        "eight": '19_rotate.png',
+        "eight": '19_rotate2.png',
         "eight_black": '19_black.png',
         "nine": "33.png",
         "ten": "14.png"
@@ -252,7 +252,7 @@ export default {
         "six_black": '15_black.png',
         "seven": '24_main.png',
         "seven_black": '24_main_black_rotate.png',
-        "eight": '19_rotate.png',
+        "eight": '19_rotate2.png',
         "eight_black": '19_black.png'
       },
       "score": 8,
@@ -358,11 +358,11 @@ export default {
         "four_black": '2_black_rotate.png',
         "five": '3.png',
         "five_black": '3_black.png',
-        "six": '15_rotate.png',
+        "six": '15.png',
         "six_black": '15_black.png',
-        "seven": '24.png',
+        "seven": '24_main.png',
         "seven_black": '18_black.png',
-        "eight": '19_rotate.png',
+        "eight": '19_rotate2.png',
         "eight_black": '19_black.png',
         "nine": "33.png",
         "ten": "14.png"
@@ -562,31 +562,32 @@ export default {
       "score": 7,
       "detail_position": {
         "first": {
-          x: 0,
-          y: 0
+          x: 120,
+          y: 130
         },
         "second": {
-          x: 0,
-          y: 0
+          x: 400,
+          y: 100
         },
         "three": {
-          x: 0,
-          y: 0
+          x: 370,
+          y: 270
         },
         "four": {
           x: 0,
-          y: 0
+          y: 80
         },
         "five": {
           x: 0,
-          y: 0
+          y: 250
         },
         "six": {
-          x: 0,
-          y: 0
+          x: 400,
+          y: 400
         },
         "seven": {
-
+          x: 200,
+          y: 100
         }
       },
       "outline_detail": {

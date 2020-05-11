@@ -10,6 +10,7 @@ window.onload = function () {
         if (key === 'lesson1') {
             let textPart = document.querySelector('.text__info');
             let headerInfo = createElement('h2');
+            let progress = createElement('progress');
             let textInfo = createElement('p');
             let imageInfo = createElement('img');
             headerInfo.setAttribute('class', 'lesson__name');
@@ -17,6 +18,8 @@ window.onload = function () {
             imageInfo.setAttribute('class', 'img__schema');
             imageInfo.setAttribute('src', result[key][0].img);
             headerInfo.innerHTML = result[key][0].part;
+            progress.setAttribute('max', 100);
+            progress.setAttribute('value', 0);
             textInfo.innerHTML = result[key][0].text;
             imagePosition = result[key][0].detail_position;
             darkPosition = result[key][0].outline_detail;
@@ -24,6 +27,7 @@ window.onload = function () {
             textPart.append(headerInfo);
             textPart.append(textInfo);
             textPart.append(imageInfo);
+            textPart.append(progress);
             loadedImages(result[key][0].sources, initStage);
         }
     }
@@ -32,6 +36,8 @@ window.onload = function () {
 let i = 1;
 // переменная устанавливающая подурок
 let count = 1;
+let countLesson = 0;
+let value;
 // переменные, значения которых будут изменяться при смене урока
 let header, text, image, imagePosition, darkPosition, scoreLevel;
 // получаем кнопку, переключатель урока
@@ -40,6 +46,7 @@ const go = document.querySelector('.go');
 // go.addEventListener('click', changeValue);
 let width = window.innerWidth;
 let height = window.innerHeight;
+let listLesson = document.querySelectorAll('.lesson__nav-list li a');
 /*
     перебираем значение полученые с сервера и устанавливаем значение для следующего урока
 */
@@ -65,6 +72,9 @@ function changeValue(data, value) {
             i++;
             count = 0;
             console.log('next');
+            document.querySelector('progress').value = 0;
+            listLesson[countLesson].style.backgroundColor = 'green';
+            countLesson++;
         }
     }
 
@@ -185,6 +195,7 @@ function initStage(images) {
                         // устанавливаем на кнопку событие
                         go.addEventListener('click', changeValue);
                         var text = 'Поздравляем вы прошли уровень';
+                        document.querySelector('progress').value += 10;
                         drawBackground(background, images.rename, text);
                     }
 
