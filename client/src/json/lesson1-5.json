@@ -1,0 +1,73 @@
+{
+    "part": "Последовательное соединение лампы и вентилятора",
+    "text": "Замкните выключатель - вентилятор начнет вращаться, а лампа загорится. При размыкании выключателя вентилятор остановитсяб а лампа погаснет",
+    "img": "../src/img/schema/lesson5.png",
+    "sources": {
+        "rename": "rename.png",
+        "first": "3_rotate.png",
+        "first_black": "3_black_rotate.png",
+        "second": "19_rotate.png",
+        "second_black": "19_black.png",
+        "three": "18.png",
+        "three_black": "18_black.png",
+        "four": "24_4.png",
+        "four_black": "24_black.png",
+        "five": "15_rotate_4.png",
+        "five_black": "15_black_rotate_4.png",
+        "six": "19.png",
+        "six_black": "19_black_rotate.png"
+    },
+    "score": 6,
+    "detail_position": {
+        "first": {
+            "x": 120,
+            "y": 130
+        },
+        "second": {
+            "x": 400,
+            "y": 100
+        },
+        "three": {
+            "x": 370,
+            "y": 270
+        },
+        "four": {
+            "x": 0,
+            "y": 80
+        },
+        "five": {
+            "x": 0,
+            "y": 250
+        },
+        "six": {
+            "x": 400,
+            "y": 400
+        }
+    },
+    "outline_detail": {
+        "first_black": {
+            "x": 119,
+            "y": 295
+        },
+        "second_black": {
+            "x": 50,
+            "y": 185
+        },
+        "three_black": {
+            "x": 130,
+            "y": 185
+        },
+        "four_black": {
+            "x": 175,
+            "y": 175
+        },
+        "five_black": {
+            "x": 325,
+            "y": 175
+        },
+        "six_black": {
+            "x": 225,
+            "y": 295
+        }
+    }
+}

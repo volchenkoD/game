@@ -1,0 +1,83 @@
+{
+    "part": "Попеременное включение лампы и светодиода",
+    "text": "Когда выключатель замкнут, горит лишь светодиод. Если рядом с герконом поместить магнит, светодиод погаснет, а лампа загорится.",
+    "img": "../src/img/schema/lesson10-11.png",
+    "sources": {
+        "rename": "rename.png",
+        "first": "2_rotate.png",
+        "first_black": "2_black_rotate.png",
+        "second": "13_large.png",
+        "second_black": "13_large_black.png",
+        "three": "19_rotate2.png",
+        "three_black": "19_black.png",
+        "four": "2_rotate.png",
+        "four_black": "2_black_rotate.png",
+        "five": "17_larg_rotate.png",
+        "five_black": "17_large_rotate_black.png",
+        "six": "18_large.png",
+        "six_black": "18_large_black.png",
+        "seven": "15_6.png",
+        "seven_black": "15_black_6.png"
+    },
+    "score": 7,
+    "detail_position": {
+        "first": {
+            "x": 120,
+            "y": 80
+        },
+        "second": {
+            "x": 450,
+            "y": 200
+        },
+        "three": {
+            "x": 120,
+            "y": 350
+        },
+        "four": {
+            "x": 0,
+            "y": 350
+        },
+        "five": {
+            "x": 400,
+            "y": 100
+        },
+        "six": {
+            "x": 300,
+            "y": 400
+        },
+        "seven": {
+            "x": 0,
+            "y": 150
+        }
+    },
+    "outline_detail": {
+        "first_black": {
+            "x": 120,
+            "y": 180
+        },
+        "second_black": {
+            "x": 180,
+            "y": 180
+        },
+        "three_black": {
+            "x": 300,
+            "y": 180
+        },
+        "four_black": {
+            "x": 120,
+            "y": 295
+        },
+        "five_black": {
+            "x": 120,
+            "y": 180
+        },
+        "six_black": {
+            "x": 180,
+            "y": 175
+        },
+        "seven_black": {
+            "x": 180,
+            "y": 292
+        }
+    }
+}

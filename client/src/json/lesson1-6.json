@@ -1,0 +1,83 @@
+{
+    "part": "Параллельное соединение лампы и вентилятора",
+    "text": "Замкните выключатель - вентилятор начнет вращаться, а лампа загорится. При размыкании выключателя вентилятор остановитсяб а лампа погаснет",
+    "img": "../src/img/schema/lesson6.png",
+    "sources": {
+        "rename": "rename.png",
+        "first": "3_rotate.png",
+        "first_black": "3_black_rotate.png",
+        "second": "3_rotate.png",
+        "second_black": "3_black_rotate.png",
+        "three": "18_rotate_6.png",
+        "three_black": "18_black_rotate_6.png",
+        "four": "24_rotate_6.png",
+        "four_black": "24_black_rotate_6.png",
+        "five": "15_6.png",
+        "five_black": "15_black_6.png",
+        "six": "19_rotate2.png",
+        "six_black": "19_black.png",
+        "seven": "3_rotate.png",
+        "seven_black": "3_black_rotate.png"
+    },
+    "score": 7,
+    "detail_position": {
+        "first": {
+            "x": 120,
+            "y": 130
+        },
+        "second": {
+            "x": 400,
+            "y": 100
+        },
+        "three": {
+            "x": 370,
+            "y": 270
+        },
+        "four": {
+            "x": 0,
+            "y": 80
+        },
+        "five": {
+            "x": 0,
+            "y": 250
+        },
+        "six": {
+            "x": 400,
+            "y": 400
+        },
+        "seven": {
+            "x": 200,
+            "y": 100
+        }
+    },
+    "outline_detail": {
+        "first_black": {
+            "x": 61,
+            "y": 185
+        },
+        "second_black": {
+            "x": 61,
+            "y": 295
+        },
+        "three_black": {
+            "x": 61,
+            "y": 185
+        },
+        "four_black": {
+            "x": 170,
+            "y": 185
+        },
+        "five_black": {
+            "x": 165,
+            "y": 295
+        },
+        "six_black": {
+            "x": 280,
+            "y": 185
+        },
+        "seven_black": {
+            "x": 165,
+            "y": 185
+        }
+    }
+}

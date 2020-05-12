@@ -1,0 +1,119 @@
+{
+    "part": "Лампа управляемая магнитом",
+    "text": "При замене выключателся на геркон лампа может управляться магнитом. Если рядом с герконом поместить магнит, лампа загорится. Если магнит убрать, лампа погаснет",
+    "img": "../src/img/schema/lesson1-2.png",
+    "sources": {
+        "rename": "rename.png",
+        "first": "2_rotate.png",
+        "first_black": "2_black_rotate.png",
+        "second": "2_rotate.png",
+        "second_black": "2_black_rotate.png",
+        "three": "2_rotate.png",
+        "three_black": "2_black_rotate.png",
+        "four": "2_rotate.png",
+        "four_black": "2_black_rotate.png",
+        "five": "3.png",
+        "five_black": "3_black.png",
+        "six": "15.png",
+        "six_black": "15_black.png",
+        "seven": "18.png",
+        "seven_black": "18_black.png",
+        "eight": "19_rotate2.png",
+        "eight_black": "19_black.png",
+        "nine": "33.png",
+        "ten": "14.png"
+    },
+    "score": 8,
+    "detail_position": {
+        "first": {
+            "x": 50,
+            "y": 130,
+            "id": 2
+        },
+        "second": {
+            "x": 250,
+            "y": 60,
+            "id": 2
+        },
+        "three": {
+            "x": 150,
+            "y": 300,
+            "id": 2
+        },
+        "four": {
+            "x": 450,
+            "y": 200,
+            "id": 2
+        },
+        "five": {
+            "x": 0,
+            "y": 0,
+            "id": 3
+        },
+        "six": {
+            "x": 250,
+            "y": 300,
+            "id": 15
+        },
+        "seven": {
+            "x": 400,
+            "y": 300,
+            "id": 18
+        },
+        "eight": {
+            "x": 0,
+            "y": 200,
+            "id": 19
+        },
+        "nine": {
+            "x": 150,
+            "y": 80
+        },
+        "ten": {
+            "x": 150,
+            "y": 350
+        }
+    },
+    "outline_detail": {
+        "first_black": {
+            "x": 120,
+            "y": 126,
+            "id": 2
+        },
+        "second_black": {
+            "x": 233,
+            "y": 126,
+            "id": 2
+        },
+        "three_black": {
+            "x": 120,
+            "y": 241,
+            "id": 2
+        },
+        "four_black": {
+            "x": 233,
+            "y": 241,
+            "id": 2
+        },
+        "five_black": {
+            "x": 118,
+            "y": 126,
+            "id": 3
+        },
+        "six_black": {
+            "x": 179,
+            "y": 241,
+            "id": 15
+        },
+        "seven_black": {
+            "x": 179,
+            "y": 126,
+            "id": 18
+        },
+        "eight_black": {
+            "x": 286,
+            "y": 126,
+            "id": 19
+        }
+    }
+}
