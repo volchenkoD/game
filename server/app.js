@@ -9,6 +9,7 @@ const passport = require('passport');
 
 const  authRoutes = require('./routes/auth');
 const lessonRoutes = require('./routes/lesson');
+const themeRoutes = require('./routes/thems');
 const keys = require('./config/keys');
 
 
@@ -26,5 +27,6 @@ app.use(bodyParser.json());
 app.use(cors());
 app.use('/api/auth', authRoutes);
 app.use('/api/lesson', lessonRoutes);
+app.use('/api/them', themeRoutes);
 
 module.exports = app;

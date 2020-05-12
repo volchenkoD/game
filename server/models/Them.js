@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-const lessonSchema = new Schema({
+const themSchema = new Schema({
     name: {
         type: String,
         required: true
@@ -10,11 +10,7 @@ const lessonSchema = new Schema({
     imageSrc: {
         type: String,
         default: ''
-    },
-    them: {
-        ref: 'thems',
-        type: Schema.Types.ObjectId
     }
 });
 
-module.exports = mongoose.model('lessons',lessonSchema);
+module.exports = mongoose.model('thems',themSchema);
